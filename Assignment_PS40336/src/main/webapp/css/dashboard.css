@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+.header {
+	background-color: #5DADE2;
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+	font-size: 20px;
+}
+
+.navbar {
+	background-color: #D5DBDB;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: blue;
+	margin: 0 15px;
+	font-size: 16px;
+}
+
+.content {
+	text-align: center;
+	padding: 50px;
+	font-size: 18px;
+	border: 1px solid green;
+	height: 480px; /* Đặt chiều cao để có thể nhìn thấy khung */
+}
+
+.footer {
+	background-color: #5DADE2;
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
