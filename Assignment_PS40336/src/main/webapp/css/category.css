@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+}
+
+/* Danh sách các bản tin */
+.news-list {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	padding: 20px;
+}
+
+.news-item {
+	display: flex;
+	align-items: center;
+	background-color: white;
+	padding: 15px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.news-image {
+	width: 100px;
+	height: 100px;
+	background-color: #ccc;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 15px;
+}
+
+.news-image img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.news-info {
+	flex-grow: 1;
+}
+
+.news-title {
+	font-size: 18px;
+	color: #007BFF;
+	text-decoration: none;
+}
+
+.news-title:hover {
+	text-decoration: underline;
+}
+
+.news-summary {
+	color: #555;
+	margin: 5px 0;
+}
+
+.news-meta {
+	color: #999;
+	font-size: 12px;
+}
