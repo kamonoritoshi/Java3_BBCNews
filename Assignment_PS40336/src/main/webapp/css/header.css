@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+.site-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: #333; /* Dark background */
+	color: white;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+}
+
+/* Logo Styling */
+.logo-container {
+	margin-right: 20px;
+}
+
+.logo {
+	height: 50px; /* Adjust the size as needed */
+}
+
+/* Header Information Styling */
+.header-info {
+	flex-grow: 1; /* Allow header info to take up remaining space */
+	text-align: left;
+}
+
+.header-info h1 {
+	margin: 0;
+	font-size: 28px;
+	color: #D71921; /* Color to match the BBC theme */
+	font-weight: bold;
+}
+
+/* Date and Sub-info Section */
+.sub-info {
+	margin-top: 5px;
+	font-size: 14px;
+	color: #ffffff;
+}
